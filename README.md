@@ -41,6 +41,7 @@
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
+
 # Program
 ```
 import random
@@ -83,8 +84,8 @@ class MedicinePrescribingAgent:
         print("\nFinal Performance:", self.performance)
 agent = MedicinePrescribingAgent()
 agent.run()
-```
 
+```
 # Output
 <img width="520" height="340" alt="Screenshot 2026-10-15 103442" src="https://github.com/user-attachments/assets/07c495ce-4591-40b8-a5fb-24b58d5a9c0c" />
 
